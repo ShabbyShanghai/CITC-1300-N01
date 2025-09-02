@@ -9,6 +9,9 @@ h1 {
 h2 {
     color:white;
 }
+h3 {
+   color:mediumaquamarine;
+}
 
  p {
     color:white;
@@ -52,6 +55,7 @@ h2 {
  nav a {
     color: whitesmoke;
     font-size: 25px;
+    font-style: italic;
    
  }
 
