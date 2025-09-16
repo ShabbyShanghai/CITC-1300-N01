@@ -47,7 +47,8 @@ header{
 }
 
 /*Mobile Theme*/
-
+@media (min-width: 545px)
+{
 #container{
    padding: 10px;
    border: 2px solid hotpink;
@@ -98,7 +99,7 @@ footer{
    text-align: center;
    color: yellow;
 }
-
+}
 
 
 /*Tablet Theme*/
