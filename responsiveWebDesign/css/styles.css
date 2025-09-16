@@ -45,9 +45,9 @@ header{
    padding: 50px;
    text-align: center;
 }
+
 /*Mobile Theme*/
-@media (min-width: 545px)
-{
+
 #container{
    padding: 10px;
    border: 2px solid hotpink;
@@ -98,7 +98,7 @@ footer{
    text-align: center;
    color: yellow;
 }
-}
+
 
 
 /*Tablet Theme*/
@@ -138,7 +138,7 @@ footer{
 }
 
 /*Desktop Styles*/
-@media (min-width: 1224px){
+@media (min-width: 1024px){
    #container{
    width:65%;
    margin:20px auto;
