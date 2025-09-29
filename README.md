@@ -6,4 +6,5 @@
     <li><a href="html5_css/home.html" target="_blank">HTML5 & CSS</a></li>
     <li><a href="advancedCSS/home.html" target="_blank">advancedCSS</a></li>
     <li><a href="responsiveWebDesign/home.html" target="_blank">This is a very responsive site</a></li>
+    <li><a href="finalHTML/index.html" target="_blank">Finale</a></li>
 </ul>
