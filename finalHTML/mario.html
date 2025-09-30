@@ -16,24 +16,34 @@
    
 }
 
-@font-face {
-    font-family: mario;
-    src: url(fonts/Mario64.ttf);
- }
+
 
 #container {
-   padding: 10px;
-   border: 2px solid rgb(255, 0, 234);
-   background-color: black;
+    
+    border: 2px solid rgb(255, 0, 234);
+    background-color: black;
+    border-radius: 30px;
+    width: 100%;
+
 }
+
+
 
  p{
     font-style: normal;
  }
+
+ 
+
  h1{
     font-family: mario;
-    color: wheat;
+    color: white;
     font-style: oblique;
+    border: 2px solid red;
+    text-shadow: 4px 1px grey;
+    border-radius: 20px;
+    background-image: url(images/dry.jpg);
+    padding: 10px;
  }
 
  h2{
@@ -47,22 +57,38 @@
     font-style:initial;
  }
 
- hr {
-  border: none; 
-  border: 1px solid blue; 
-}
+ hr{
+    border: none;
+    border: 1px solid pink;
+ }
+
  
+@media (min-width: 1024px){
+ .something hr {
+  border: none; 
+  border: 1px solid blue;
+   
+}
+
+ 
+}
+@media (max-width: 1024px){
+    
+    .something hr {
+    border: none; 
+    border: 0px solid blue; 
+    }
+    
+iframe{
+    display:block;
+    margin: auto;
+}
+}
+
  </style>
  <link rel="icon" type="images/x-icon" href="images/favicon.ico">
 </head>
-
-    
-<body>
-    <div id="container">
-    <header>
-        <h1>Speedruns</h1>
-    </header>
-    <nav>
+<nav>
         <ul>     
         <li><a href="index.html">Home</a></li>
         <li><a href="mario.html">Speedruns</a></li>
@@ -71,6 +97,13 @@
         <li><a href="dunno.html">Something</a></li>
         </ul>
     </nav>
+    
+<body>
+    <div id="container">
+    <header>
+        <h1>Speedruns</h1>
+    </header>
+    
     <main>
         <h2>Mario64 and Speedruns.</h2>
         <h5>(I mostly wanted an excuse to use this background)</h5>
@@ -83,10 +116,11 @@
         <p>My personal favorite are the Fallout: New Vegas any% yes man runs that are only 8 minutes long.</p>
         <p>How people find these things out is beyond me.</p>
         
+        <hr>
         <section class="something">
             
             <hr>
-            <div class = "col">
+            <div class = "colMario">
                 <h3>Mario64</h3>
 
                 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ngMFEeDoX54?si=DICm6KsMD9evSOKX" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -94,21 +128,31 @@
                 <img src="images/marioScary.png" alt="mario">
             </div>
             <hr>
-            <div class = "col">
+            
+            <div class = "colMario">
                 <h3>Half-Life</h3>
                 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/_MoeT7x_gUQ?si=5rSYD7spl46V2MET" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <img src="images/halflife.png" alt="gordon">
             </div>
 
             <hr>
-            <div class = "col">
+            
+            
+        </section>
+        <hr>
+        <section class="something">
+            <hr>
+            <div class = "colMario">
                 <h3>Fallout: New Vegas</h3>
+                
                 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/M7X9jUJlxoU?si=-TfCKvWwXr0thHmF" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <img src="images/fallout.png" alt="courier">
-                <p>If you're gonna watch any of them, this one is the craziest. (it's age restricted :C )</p>
+                
             </div>
             <hr>
         </section>
+        <hr>
+        <p>The speedrunning community has been saving their scores to <a href="https://www.speedrun.com" target="_blank">Speedrun.com</a> for years. If you have any interest in a certain game, they've probably made a catagory for it.</p>
     </main>
 <hr>
     <footer>SuperShabbyShanghaiProductions(SSSP)</footer>

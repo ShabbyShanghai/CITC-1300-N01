@@ -11,6 +11,13 @@ body{
    background-image: url(images/daBois.png);
 }
 
+#container {
+   
+   border-radius: 30px;
+   background-image: url(images/daBois2.png);
+   width: 100%;
+}
+
 nav{
     background-color: black;
 }
@@ -24,24 +31,55 @@ main img {
     width: 300px;
     border-radius: 20px;
  }
-
+ 
  h1{
     color: black;
-    font-size: 150px;
-    
+    font-size: xx-large;
+    border: 2px solid black;
+    background-color: white;
     text-align: center;
     font-family:elderScrolls;
+    border-radius: 100%;
+ }
+
+ h2{
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    text-align: center;
+    font-family:elderScrolls;
+    border: 2px solid gold;
+    border-radius: 30px;
+ }
+
+ p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+    border: 2px solid gold;
+    border-radius: 30px;
+ }
+ footer{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+ }
+ hr{
+    border:none;
+    border: 1px solid hotpink;
  }
 
  .scrollingText{
     white-space: nowrap;
     position: absolute;
-    animation: scrollText 10s linear infinite;
+    animation: scrollText 6s linear infinite;
  }
-
  @keyframes scrollText{
-    100%{ transform: translateX(100%);}
     0%{ transform: translateX(-100%);}
+    100%{ transform: translateX(1500px);}
+    
     
  }
  
@@ -49,9 +87,7 @@ main img {
  <link rel="icon" type="images/x-icon" href="images/favicon2.ico">
  
 </head>
-
-    <body>
-        <nav>
+<nav>
         <ul>     
         <li><a href="index.html">Home</a></li>
         <li><a href="mario.html">Speedruns</a></li>
@@ -60,12 +96,28 @@ main img {
         <li><a href="dunno.html">Something</a></li>
         </ul>
     </nav>
-    <div class="scrollingText">
-        <H1>FIN FIN FIN FIN FIN FIN FIN FIN</H1>
-        <H1>FIN FIN FIN FIN FIN FIN FIN FIN</H1>
-        <H1>FIN FIN FIN FIN FIN FIN FIN FIN</H1>
+<body>
+    <div id="container">
+        <header>
+        <h1>FIN</h1>
+    </header>
+        
+    <main>
+      
+    <h2>Something</h2>
+    
+    </main>
+
+    
+        
+        
+        
+        <ln><p>Everyone has a contact page, so instead I figured out how to scroll text without marquees. I'd count this as "true content."</p></ln>
+    </div>
         
     </div>
+   
 </body>
-
+<hr>
+ <div class="scrollingText"><H2>FIN </H2></div>
 </html>
