@@ -20,7 +20,24 @@
     font-family: daggerfall;
     src: url(../fonts/MorrisRoman-Black.ttf);
  }
+ /*The one singular Fallout font*/
 
+@font-face {
+    font-family: JH_FALLOUT;
+    src: url(fonts/JH_FALLOUT.TTF);
+ }
+ 
+
+.responsive-iframe {
+  position:unset;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 30%;
+  border: none;
+}
 
 body{
    background-color: black;
