@@ -33,7 +33,17 @@ main img {
     font-family:elderScrolls;
  }
 
- 
+ .scrollingText{
+    white-space: nowrap;
+    position: absolute;
+    animation: scrollText 10s linear infinite;
+ }
+
+ @keyframes scrollText{
+    100%{ transform: translateX(100%);}
+    0%{ transform: translateX(-100%);}
+    
+ }
  
  </style>
  <link rel="icon" type="images/x-icon" href="images/favicon2.ico">
@@ -50,21 +60,12 @@ main img {
         <li><a href="dunno.html">Something</a></li>
         </ul>
     </nav>
-    
-    
-    
-    
-
-
-    
+    <div class="scrollingText">
+        <H1>FIN FIN FIN FIN FIN FIN FIN FIN</H1>
+        <H1>FIN FIN FIN FIN FIN FIN FIN FIN</H1>
+        <H1>FIN FIN FIN FIN FIN FIN FIN FIN</H1>
+        
+    </div>
 </body>
 
 </html>
-<marquee behavior="scroll" direction="right" scrollamount="2">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
-<marquee behavior="scroll" direction="right" scrollamount="6">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
-<marquee behavior="scroll" direction="right" scrollamount="10">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
-<marquee behavior="scroll" direction="right" scrollamount="15">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
-<marquee behavior="scroll" direction="right" scrollamount="2">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
-<marquee behavior="scroll" direction="right" scrollamount="6">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
-<marquee behavior="scroll" direction="right" scrollamount="10">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
-<marquee behavior="scroll" direction="right" scrollamount="15">FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN FIN</marquee>
